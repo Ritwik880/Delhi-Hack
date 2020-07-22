@@ -17,6 +17,15 @@ body {
     max-width: 100%;
 }
 
+.social {
+    display: block;
+    position: fixed;
+    top: 35%;
+    width: 10%;
+    left: 0;
+    height: auto;
+}
+
 #header-section a:hover {
     cursor: pointer;
 }
@@ -161,11 +170,11 @@ body {
     color: rgba(255, 255, 255, 0.85);
 }
 
-.sponors .row:nth-child(1) .col-md:nth-child(1) .testimonial-item {
-    margin-top: 10px;
+.sponsors .row:nth-child(1) .col-md:nth-child(3) img {
+    width: 70%;
 }
 
-.sponors .row:nth-child(1) .col-md:nth-child(4) .testimonial-item {
+.sponsors .row:nth-child(1) .col-md:nth-child(4) .testimonial-item {
     margin-top: -25px;
 }
 
@@ -286,36 +295,14 @@ body {
     color: rgba(255, 255, 255, 0.811);
 }
 
-#footer-section .logo {
+#footer-section .container .logo {
     max-height: 50px;
-    max-width: 35%;
-}
-
-#footer-section .footer-subjects {
-    position: relative;
-    margin: 0 auto;
-}
-
-#footer-section .footer-subjects div {
-    position: relative;
-    margin: 0 auto;
-}
-
-#footer-section .footer-list li {
-    display: block;
-    line-height: 2.7;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-#footer-section .footer-list li:hover {
-    cursor: pointer;
-    text-decoration: underline;
+    margin-left: 20px;
 }
 
 #footer-section .footer-divider {
     border-top: 1px solid #8c8b8b4d;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #footer-section .social-media-bar {
@@ -324,6 +311,7 @@ body {
 
 #footer-section .copyright {
     color: rgba(255, 255, 255, 0.811);
+    margin-top: -80px !important;
 }
 
 #developer-section {
@@ -420,6 +408,9 @@ body {
     }
     .pricing .card:hover .btn {
         opacity: 1;
+    }
+    .social {
+        display: none;
     }
 }
 
