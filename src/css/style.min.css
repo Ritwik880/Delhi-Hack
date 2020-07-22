@@ -18,14 +18,15 @@ body {
 }
 
 .social {
-    display: block;
     position: fixed;
-    top: 35%;
+    top: 50%;
     width: 10%;
-    left: 0;
     height: auto;
     margin-left: 10px;
     z-index: 2;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 #header-section a:hover {
