@@ -412,9 +412,6 @@ body {
     .pricing .card:hover .btn {
         opacity: 1;
     }
-    .social {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -518,6 +515,13 @@ body {
     #review-section .img-raised {
         margin: 0 auto;
         text-align: center;
+    }
+    .social {
+        left: -20px !important;
+    }
+    .social a {
+        transform: scale(0.8);
+        margin: 0.5px;
     }
 }
 
