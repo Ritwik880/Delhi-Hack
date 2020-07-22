@@ -24,6 +24,7 @@ body {
     width: 10%;
     left: 0;
     height: auto;
+    margin-left: 10px;
 }
 
 #header-section a:hover {
