@@ -25,6 +25,7 @@ body {
     left: 0;
     height: auto;
     margin-left: 10px;
+    z-index: 2;
 }
 
 #header-section a:hover {
