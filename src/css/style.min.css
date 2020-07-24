@@ -391,7 +391,7 @@ body {
         text-align: center !important;
     }
     #footer-section .social-media-bar .copyright {
-        margin-top: 12px;
+        margin-top: auto !important;
         text-align: center;
     }
     #footer-section .footer-list li {
@@ -440,7 +440,7 @@ body {
         min-height: 620px;
     }
     #footer-section .social-media-bar .copyright {
-        margin-top: 15px;
+        margin-top: 50px;
         text-align: center;
     }
     #footer-section .footer-list li {
