@@ -183,6 +183,11 @@ body {
     margin-top: -25px;
 }
 
+.partner img {
+    width: 50%;
+    height: 85%;
+}
+
 #review-section .testimonial-item img {
     width: auto;
     margin: 10px 0 25px 0;
