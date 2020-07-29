@@ -183,6 +183,10 @@ body {
     margin-top: -25px;
 }
 
+.sponsors .row:nth-child(5) .col-md:nth-child(3) .testimonial-item {
+    margin-top: 25px;
+}
+
 .partner img {
     width: 50%;
     height: 85%;
