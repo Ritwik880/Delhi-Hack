@@ -22,6 +22,42 @@ body {
     font-weight: bold;
 }
 
+.list1 li {
+    text-align: left;
+}
+
+.col-md-6:nth-child(1) .card-body {
+    background: linear-gradient(180deg, gold, white, white, white, white, white, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-md-6:nth-child(2) .card-body {
+    background: linear-gradient(180deg, rgb(102, 101, 101), white, white, white, white, white, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-md-6:nth-child(3) .card-body {
+    background: linear-gradient(180deg, #cd7f32, white, white, white, white, white, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-md-6:nth-child(4) .card-body {
+    background: linear-gradient(180deg, rgb(68, 143, 168), white, white, white, white, white, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.org .col-md img {
+    transform: scale(0.7);
+}
+
+.org .col-md h5 {
+    margin-top: -50px;
+}
+
 .social {
     position: fixed;
     top: 50%;
