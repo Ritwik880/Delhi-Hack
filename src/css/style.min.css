@@ -27,25 +27,25 @@ body {
 }
 
 .prize .col-md-6:nth-child(1) .card-body {
-    background: linear-gradient(180deg, gold, white, white, white, white, white, white);
+    background: linear-gradient(180deg, gold, white, white, white, white, white, white, gold);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .prize .col-md-6:nth-child(2) .card-body {
-    background: linear-gradient(180deg, rgb(102, 101, 101), white, white, white, white, white, white);
+    background: linear-gradient(180deg, rgb(102, 101, 101), white, white, white, white, white, white, rgb(102, 101, 101));
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .prize .col-md-6:nth-child(3) .card-body {
-    background: linear-gradient(180deg, #cd7f32, white, white, white, white, white, white);
+    background: linear-gradient(180deg, #cd7f32, white, white, white, white, white, white, #cd7f32);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .prize .col-md-6:nth-child(4) .card-body {
-    background: linear-gradient(180deg, rgb(68, 143, 168), white, white, white, white, white, white);
+    background: linear-gradient(180deg, rgb(68, 143, 168), white, white, white, white, white, white, rgb(68, 143, 168));
     background-repeat: no-repeat;
     background-size: cover;
 }
