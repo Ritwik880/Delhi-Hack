@@ -303,6 +303,15 @@ span:nth-child(2):hover .bubble {
     color: rgba(255, 255, 255, 0.85);
 }
 
+.leag {
+    margin-bottom: 5em;
+}
+
+.leag .row .col-md img {
+    width: 40%;
+    height: 40%;
+}
+
 .sponsors .row:nth-child(1) .col-md:nth-child(3) img {
     width: 70%;
 }
