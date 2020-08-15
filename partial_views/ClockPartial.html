@@ -1,0 +1,87 @@
+<div style="container text-center">
+    <style type="text/css">
+	body{ 
+    text-align: center; 
+    background: #ffffff; 
+  font-family: sans-serif; 
+  font-weight: 200; 
+} 
+h1{ 
+  color: #ffffff; 
+  font-weight: 100; 
+  font-size: 40px; 
+/*  margin: 40px 0px 20px; */
+} 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fff; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+} 
+#clockdiv > div{ 
+    padding: 15px; 
+    border-radius: 10px; 
+    margin: 10px;
+    display: inline-block; 
+} 
+/*
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    background: #181818; 
+    display: inline-block; 
+} 
+*/
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+</style>
+    <h1>The Countdown Has Begun</h1> 
+<div id="clockdiv" class="row" style="margin: auto"> 
+  <div > 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div> 
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div > 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+  
+<p font-size=7 id="demo"></p> 
+<script type="text/javascript">
+	var deadline = new Date("Sept 5, 2020 23:59:59").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000*60*60*24)); 
+var hours = Math.floor((t%(1000*60*60*24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t%(1000*60*60)) / (1000 * 60)); 
+var seconds = Math.floor((t%(1000*60)) / 1000); 
+document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script>
+</div>
