@@ -103,7 +103,7 @@ span:nth-child(2) a {
 
 span:nth-child(1) a img {
     position: fixed;
-    top: 25%;
+    top: 50%;
     left: 10%;
     -webkit-transform: translate(50%, -50%);
     -ms-transform: translate(50%, -50%);
