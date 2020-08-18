@@ -176,6 +176,11 @@ span:nth-child(2):hover .bubble {
     cursor: pointer;
 }
 
+.cp {
+    margin-top: 2em;
+    margin-bottom: -0.5em;
+}
+
 #header-section .page-header {
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.981), rgba(48, 48, 47, 0.815)), url(../../src/img/LandingBackground.jpg);
     background-position: center;
