@@ -48,6 +48,12 @@ body {
     margin-top: 1em;
 }
 
+.col-md-6 .mlh .card-body {
+    background: linear-gradient(180deg, #553b3b, white, white, white, white, white, white, #553b3b) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .prize .col-md-6:nth-child(4) .card-body {
     background: linear-gradient(180deg, rgb(68, 143, 168), white, white, white, white, white, white, rgb(68, 143, 168));
     background-repeat: no-repeat;
