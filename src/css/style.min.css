@@ -68,6 +68,34 @@ body {
     margin-top: -50px;
 }
 
+.schedule {
+    background: url("../img/3bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-bottom: -5em;
+}
+
+.schedule h1 {
+    text-align: center;
+    color: white;
+}
+
+.schedule h4 {
+    text-align: center;
+    color: white;
+    margin-top: -1em;
+    margin-bottom: 0.9em;
+}
+
+.schedule img {
+    left: 0%;
+    transform: translate(65%, 0%);
+    box-shadow: 0em 0em 0.5em 0.5em rgba(0, 0, 0, 0.521);
+    border-radius: 0.2em;
+}
+
 .social {
     position: fixed;
     top: 50%;
