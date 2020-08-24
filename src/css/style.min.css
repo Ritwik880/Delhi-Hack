@@ -628,6 +628,13 @@ display: inline-block;
         min-width: 960px;
         min-height: 540px;
     }
+    .schedule img {
+        left: 0%;
+        transform: translate(6%, 0%);
+        box-shadow: 0em 0em 0.5em 0.5em rgba(0, 0, 0, 0.521);
+        border-radius: 0.2em;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 992px) {
